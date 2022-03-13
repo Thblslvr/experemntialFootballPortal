@@ -1,0 +1,6 @@
+.search{
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 20px;
+}

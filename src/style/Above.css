@@ -1,0 +1,48 @@
+.above{
+    height: 120px;
+    border: 1px solid #000;
+    background-color: rgb(236, 234, 234);
+    width: 99%;
+}
+
+.wrapper{
+    height: 120px;
+    display: flex;
+    justify-content: space-between; /* Can be changed in the live sample */
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.wrapper__rectangle{
+    width: 70px;
+    height: 70px;
+    border: 1px solid #000;
+}
+
+.wrapper button {
+    height: 70px;
+    background-color: rgb(236, 234, 234);
+    border: none;
+}
+
+.wrapper button:active {
+    background-color: rgb(207, 218, 218);
+}
+
+@media (max-width: 767px) { .wrapper {
+
+    width: 60%; 
+} } 
+@media (min-width: 768px) and (max-width: 991px) { .wrapper {
+
+    width: 40%; 
+} } 
+@media (min-width: 991px) and (max-width: 1199px) { .wrapper {
+
+    width: 30%; 
+} } 
+
+@media (min-width: 1200px) { .wrapper {
+
+    width: 20%; 
+}}
