@@ -12,8 +12,10 @@ import Invoices from "./routes/invoices";
 const url = `http://api.football-data.org/v2/competitions/`;
 
 let config = {
+
     method: "GET",
     mode: "cors"
+    
 };
 
 let resultsOfSearch;
