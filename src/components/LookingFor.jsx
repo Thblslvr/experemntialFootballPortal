@@ -21,9 +21,7 @@ async function onSubmit(event) {
     fetch(url, config)
         .then(res => res.json())
         .then(data => console.log(data))
-        .catch(resp => {
-            console.error(resp);
-        });
+        
     //   .catch(() => renderError());
     event.preventDefault();
 }
